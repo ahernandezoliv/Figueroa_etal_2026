@@ -1,3 +1,4 @@
+set.seed(1234)
 library(ggplot2)
 
 # Load GSEA data
