@@ -3,17 +3,9 @@ This repository contain the script used for the analysis and plotting of the dat
 
 This repository is divided in three different R scripts:
 
-1. GSEA analysis
-2. Single-cell analysis
-3. Survival analysis
-
-1. GSEA analysis include the script for generating the dotplot in Figure 7a. No other script was used for this plot science normalized data was download directly from GEO and GSEA (Broad Institute) is graphic tool that uses no code.
-
-2. Single-cell analysis include the script for processing and integration of single-cell data with corresponding plots available at Figures 7b-7d and Supplementary Figure 13.
-
-3. Survival analysis include the script for calculating the mean expression of each gene signature and subsequently survival analysis and Kaplan-Meier curves present in Figure 7e.
-
-
+1. GSEA analysis. Includes the script for generating the dotplot in Figure 7a. No other script was used for this plot science normalized data was download directly from GEO and GSEA (Broad Institute) is graphic tool that uses no code.
+2. Single-cell analysis. Includes the script for processing and integration of single-cell data with corresponding plots available at Figures 7b-7d and Supplementary Figure 13.
+3. Survival analysis. Includes the script for calculating the mean expression of each gene signature and subsequently survival analysis and Kaplan-Meier curves present in Figure 7e.
 
 Data used in this study:
 
