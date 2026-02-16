@@ -192,7 +192,7 @@ DotPlot(t0_subset, features = c(final_markers,
   geom_hline(yintercept = c(5.5,12.5,13.5), linetype = "solid")+
   ylab("")+xlab("")
 
-# Bar plot. Data was obtained from the metadata ob the seurat object.
+# Bar plot. Data was obtained from the metadata of the seurat object.
 ggplot(plot_data, aes(x = Response, y = prop, fill = Final_clusters)) +
   geom_bar(stat = "identity") +
   scale_fill_manual(values = cluster_colors) +
